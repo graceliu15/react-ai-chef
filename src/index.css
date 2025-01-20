@@ -64,6 +64,12 @@ main {
   margin-right: 5px;
 }
 
+.add-ingredient-form > button:active {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds shadow effect */
+  transform: translateY(2px); /* Slightly moves the button down to simulate pressing */
+  border-color: #0056b3; /* Darker shade when clicked */
+}
+
 .main-section {
   margin-left: 408px;
   margin-right: 408px;
@@ -111,7 +117,21 @@ ul.ingredients-list > li {
   cursor: pointer;
 }
 
+.get-recipe-container > button:active {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds shadow effect */
+  transform: translateY(2px); /* Slightly moves the button down to simulate pressing */
+  border-color: #0056b3; /* Darker shade when clicked */
+}
+
 .recipe-container {
   margin-left: 250px;
   margin-right: 250px;
+  color: #475467;
+  line-height: 28px;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.recipe-container ul li, .recipe-container ol li {
+  margin-bottom: 8px;
 }
